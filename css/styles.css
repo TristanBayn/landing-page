@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.nav-left {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.nav-right {
+    align-self: center;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
