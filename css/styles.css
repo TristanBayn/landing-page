@@ -43,11 +43,19 @@ body {
 }
 
 .hero-left {
-    width: 450px;
+    width: 500px;
+  
 
 }
 
-.hero-left button {
+
+
+.hero-left p {
+    padding-top: 10px;
+}
+
+
+.hero-left button, .footer-content button{
     background-color: #3882F6;
     color: white;
     padding: 10px;
@@ -57,6 +65,11 @@ body {
     font-weight: bold;
     border-radius: 10px;
     font-size: 15px;
+}
+
+
+.footer-content button {
+    border: 1px solid white;
 }
 
 
@@ -148,3 +161,32 @@ body {
     font-size: 25px;
     font-weight: 1000;
 }
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 900px;
+    padding: 40px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
