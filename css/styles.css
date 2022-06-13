@@ -95,11 +95,7 @@ body {
 
 
 
-.information {
-    
-    border: 1px solid red;
-    
-}
+
 
 .images {
     display: flex;
@@ -126,4 +122,29 @@ body {
 
 .image p {
     font-weight: 900;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 120px;
+    
+}
+
+.quote-text {
+    width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-text p {
+    margin: 0;
+}
+
+#quote-right {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 1000;
 }
