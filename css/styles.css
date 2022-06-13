@@ -33,7 +33,7 @@ body {
     align-items: center;
     padding: 80px;
     gap: 150px;
-    border: 1px solid red;
+
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 48px;
@@ -83,4 +83,47 @@ body {
 .hero-right img {
     width: 500px;
     height: auto;
+}
+
+
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+
+.information {
+    
+    border: 1px solid red;
+    
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid lightskyblue;
+    
+}
+
+
+.image {
+    width: 300px;
+    text-align: center;
+    
+}
+
+.image p {
+    font-weight: 900;
 }
