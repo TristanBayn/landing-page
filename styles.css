@@ -96,6 +96,7 @@ button {
     text-align: center;
     margin-top: 40px;
     gap: 30px;
+    margin-bottom: 70px;
 }
 
 
@@ -117,3 +118,28 @@ button {
 .information-player {
     text-align: center;
 }
+
+
+
+.quote {
+    display: flex;
+    align-items: center;
+    padding: 150px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+   
+}
+
+.quote-section {
+    align-self: center;
+}
+
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+}
+
