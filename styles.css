@@ -93,6 +93,7 @@ button {
 .information-main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 40px;
     gap: 30px;
