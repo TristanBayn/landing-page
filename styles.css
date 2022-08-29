@@ -3,6 +3,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
 .hero {
     border: 1px solid blue;
     background-color: #1F2937;
@@ -19,7 +25,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
     padding: 10px;
     color: #F9FAF8;
     
@@ -39,17 +44,21 @@
     justify-content: center;
     align-items: center;
     padding: 70px;
-    border: 1px solid blue;
-    gap: 100px;
+    gap: 120px;
 }
 
 .hero-main-left {
-    width: 700px;
+    width: 650px;
     font-size: 48px;
     font-weight: extra-bold;
     
     color: #F9FAF8;
 }
+
+.hero-main-left p {
+    margin-bottom: -10px;
+}
+
 
 a {
    text-decoration: none;
@@ -61,9 +70,10 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    padding: 5px 25px;
+    padding: 8px 25px;
     font-weight: 900;
     border: none;
+    
 }
 
 .hero-nav img {
@@ -74,4 +84,36 @@ button {
 .hero-main-right img {
     width: 500px;
     height: auto;
+}
+
+.information {
+  
+}
+
+.information-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+
+.information h4 {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-main img {
+    border-radius: 20px;
+    border: 3px solid #3882F6;
+    width: 300px;
+    height: auto;
+}
+
+.information-player {
+    text-align: center;
 }
