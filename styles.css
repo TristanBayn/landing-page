@@ -123,6 +123,7 @@ button {
 
 .quote {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 150px;
     background-color: #E5E7EB;
@@ -135,11 +136,34 @@ button {
 
 .quote-section {
     align-self: center;
+    width: 1000px;
 }
 
 
 .quote p {
     text-align: right;
     font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: #F9FAF8;
+}
+
+.call-to-action-main {
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #3882F6;
+}
+
+.call-to-action-main-right button {
+    border: 1px solid white;
 }
 
